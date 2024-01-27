@@ -5,6 +5,6 @@ def word_count(string):
     # total count of words.
     return(len(string.strip().split(" ")))
 #taking user input using input() method
-string = input("Enter your sentence: ")
+string = input("Enter your text: ")
 #print the string and measure the no. of words using word_count() method
 print(format(string),"has total words:",word_count(string))
